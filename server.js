@@ -393,7 +393,6 @@ function updateRoles() {
             function (err, res) {
               if (err) throw err;
               console.log(res.affectedRows + " employee role updated!\n");
-              console.table(res);
               runCLI();
             });
         })

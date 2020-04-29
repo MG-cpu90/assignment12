@@ -6,7 +6,9 @@ I WANT to be able to view and manage the departments, roles, and employees in my
 SO THAT I can organize and plan my business
 
 ## Description
-* To run this CLI application, the User should run the 'employee.js' file using node through GIT, using the following command: 'node employee.js'
+* To run this CLI application, the User should run the 'server.js' file using node through GIT, by using one of the following commands: 
+    * 'node server.js' or
+    * 'npm start'
 * Through the CLI, the user will be prompted with a number of options including
     * Whether they would like to add:
         * A new department
