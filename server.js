@@ -3,7 +3,7 @@ const mysql = require("mysql");
 const inquirer = require("inquirer");
 
 // init function = init();
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
     host: "localhost",
 
     // Your port; if not 3306
