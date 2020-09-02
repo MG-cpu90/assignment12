@@ -230,7 +230,7 @@ function addEmployees() {
     // Get a list of all roles and populate an array of objects with this information
     connection.query("SELECT * FROM role", function(err, results) {
         if (err) throw err;
-        var choiceArray = [];
+        let choiceArray = [];
 
         const choiceObj = {
             title: "",
