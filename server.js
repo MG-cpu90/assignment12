@@ -367,7 +367,7 @@ function updateRoles() {
                     // Update the employee's role
                     .then(function(response) {
 
-                        var query = "UPDATE employee SET ? WHERE ?";
+                        let query = "UPDATE employee SET ? WHERE ?";
 
                         connection.query(query, [{
                                     role_id: response.newRoleID
