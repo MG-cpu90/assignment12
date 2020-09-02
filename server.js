@@ -1,6 +1,6 @@
 // Variables
 const mysql = require("mysql");
-var inquirer = require("inquirer");
+const inquirer = require("inquirer");
 
 // init function = init();
 var connection = mysql.createConnection({
