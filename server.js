@@ -175,7 +175,7 @@ function addRoles() {
             id: ""
         };
 
-        for (var i = 0; i < results.length; i++) {
+        for (let i = 0; i < results.length; i++) {
 
             choiceObj.name = results[i].name;
             choiceObj.id = results[i].id;
