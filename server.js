@@ -267,7 +267,7 @@ function addEmployees() {
             ])
             // Add an employee based on their answers
             .then(function(response) {
-                var query = "INSERT INTO employee SET ?";
+                let query = "INSERT INTO employee SET ?";
                 connection.query(query, {
                         first_name: response.newEmployeeFirstName,
                         last_name: response.newEmployeeLastName,
