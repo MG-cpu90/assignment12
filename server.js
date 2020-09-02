@@ -297,7 +297,7 @@ function viewDepartments() {
 // Function for viewing all employees
 function viewEmployees() {
 
-    var query =
+    let query =
         `SELECT first_name, last_name, role.title 
     FROM employee
     INNER JOIN role ON role.id=employee.role_id`;
