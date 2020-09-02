@@ -1,5 +1,5 @@
 // Variables
-var mysql = require("mysql");
+const mysql = require("mysql");
 var inquirer = require("inquirer");
 
 // init function = init();
