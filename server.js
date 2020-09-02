@@ -168,7 +168,7 @@ function addRoles() {
     // Get a list of all departments and populate an array of objects with this information
     connection.query("SELECT * FROM department", function(err, results) {
         if (err) throw err;
-        var choiceArray = [];
+        let choiceArray = [];
 
         const choiceObj = {
             name: "",
