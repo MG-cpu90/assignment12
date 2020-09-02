@@ -329,7 +329,7 @@ function updateRoles() {
     // Get a list of all employees and populate an array of objects with this information
     connection.query("SELECT * FROM employee", function(err, results) {
         if (err) throw err;
-        var choiceArray = [];
+        let choiceArray = [];
 
         const choiceObj = {
             name: "",
