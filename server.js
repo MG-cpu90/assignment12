@@ -150,7 +150,7 @@ function addDepartments() {
         }])
         .then(function(response) {
             console.log(response.newDepartmentName);
-            var query = "INSERT INTO department SET ?";
+            let query = "INSERT INTO department SET ?";
             connection.query(query, {
                     name: response.newDepartmentName,
                 },
