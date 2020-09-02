@@ -208,7 +208,7 @@ function addRoles() {
             .then(function(response) {
                 console.log(response);
 
-                var query = "INSERT INTO role SET ?";
+                let query = "INSERT INTO role SET ?";
                 connection.query(query, {
                         title: response.newRoleTitle,
                         salary: response.newRoleSalary,
