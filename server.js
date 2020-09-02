@@ -337,7 +337,7 @@ function updateRoles() {
             role_id: ""
         };
 
-        for (var i = 0; i < results.length; i++) {
+        for (let i = 0; i < results.length; i++) {
 
             choiceObj.name = results[i].first_name + " " + results[i].last_name;
             choiceObj.id = results[i].id;
