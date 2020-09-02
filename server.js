@@ -237,7 +237,7 @@ function addEmployees() {
             id: ""
         };
 
-        for (var i = 0; i < results.length; i++) {
+        for (let i = 0; i < results.length; i++) {
 
             choiceObj.title = results[i].title;
             choiceObj.id = results[i].id;
